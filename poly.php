@@ -12,5 +12,5 @@ class Poly {
 $poly1 =  new Poly("P001", "Poly Anak");
 $poly2 =  new Poly("P002", "Poly Umum");
 
-echo $poly1->namaPoly;
-echo $poly2->namaPoly;
+// echo $poly1->namaPoly;
+// echo $poly2->namaPoly;

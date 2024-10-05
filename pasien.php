@@ -18,6 +18,6 @@ class Pasien {
 }
 
 $pasien1 =  new Pasien("001", "Budi");
-echo "Nama Pasien adalah :".$pasien1->namaPasien;
+// echo "Nama Pasien adalah :".$pasien1->namaPasien;
 $pasien2 =  new Pasien("002", "Ali");
-echo "Nama Pasien adalah :".$pasien2->namaPasien;
+// echo "Nama Pasien adalah :".$pasien2->namaPasien;
