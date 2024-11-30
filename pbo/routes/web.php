@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\PasienController;
+use App\Http\Controllers\PoliController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,4 @@ Route::get('/', function () {
 
 
 Route::resource('pasiens', PasienController::class);
+Route::resource('polis', PoliController::class);
