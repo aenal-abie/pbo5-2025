@@ -16,4 +16,8 @@ class Poli extends Model
         'nama_poli',
         'status',
     ];
+
+    public function pendaftarans(){
+        $this->hasMany(Pendaftaran::class);
+    }
 }

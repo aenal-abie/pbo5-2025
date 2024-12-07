@@ -16,4 +16,8 @@ class Pasien extends Model
         'nik',
         'alamat',
     ];
+
+    public function pendaftarans(){
+        $this->hasMany(Pendaftaran::class);
+    }
 }
